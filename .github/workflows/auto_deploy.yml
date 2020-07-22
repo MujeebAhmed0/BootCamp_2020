@@ -33,4 +33,4 @@ jobs:
     - name: installing surge
       run: npm install -global surge
     - name: deploying on surge
-      run: surge ./ dddecisive-star.surge.sh --token $ {{ secrets.SURGE_TOKEN }}
+      run: surge ./ dddecisive-star.surge.sh --token ${{ secrets.SURGE_TOKEN }}
